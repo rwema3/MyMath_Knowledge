@@ -15,7 +15,9 @@ class ButtonIcon extends StatelessWidget {
     return Flexible(
       child: MaterialButton(
         onPressed: function,
-        
+        child: Container(
+          decoration: BoxDecoration(
+          
           ),
         ),
       ),
