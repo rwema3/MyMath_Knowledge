@@ -8,7 +8,7 @@
         preferredSize: const Size.fromHeight(60.0),
         child: Container(
           alignment: Alignment.center,
-          
+          decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
           ),
           child: const CustomAppBar(),
