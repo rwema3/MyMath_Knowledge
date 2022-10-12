@@ -6,11 +6,6 @@ import 'customWidget/ButtonIcon.dart';
 import 'customWidget/customWidgetMethods.dart';
 
 class AskOperator extends StatelessWidget {
-  
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-            ),
             child: const CustomAppBar(),
           ),
         ),
