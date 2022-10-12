@@ -6,6 +6,9 @@ import 'customWidget/ButtonIcon.dart';
 import 'customWidget/customWidgetMethods.dart';
 
 class AskOperator extends StatelessWidget {
+  const AskOperator({super.key, required this.isQuiz});
+  final bool isQuiz;
+  @override
   
             alignment: Alignment.center,
             decoration: BoxDecoration(
