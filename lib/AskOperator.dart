@@ -9,7 +9,9 @@ class AskOperator extends StatelessWidget {
   const AskOperator({super.key, required this.isQuiz});
   final bool isQuiz;
   @override
-  
+  Widget build(BuildContext context) {
+    return Scaffold(
+        
             alignment: Alignment.center,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
