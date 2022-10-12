@@ -1,6 +1,3 @@
-    this.operator = 'sum',
-  });
-  final IconData icon;
   final String operator;
 
   @override
