@@ -3,12 +3,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'PDF/PdfGeneratonScreen.dart';
 import 'Quiz/QuizQuestionScreen.dart';
 import 'customWidget/ButtonIcon.dart';
-                              MaterialPageRoute(
-                                builder: (context) => isQuiz
-                                    ? const QuizQuestionScreen(
-                                        icon: FontAwesomeIcons.minus,
-                                        operator: 'minus',
-                                      )
                                     : const PdfGenerationScreen(
                                         icon: FontAwesomeIcons.minus,
                                         operator: 'minus',
