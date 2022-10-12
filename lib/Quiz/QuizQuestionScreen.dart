@@ -1,3 +1,4 @@
+    super.key,
     this.icon = Icons.add,
     this.operator = 'sum',
   });
