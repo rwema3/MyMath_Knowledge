@@ -1,5 +1,3 @@
-import '../utils/colorConst.dart';
-import 'QuizScreen.dart';
 
 class QuizQuestionScreen extends StatefulWidget {
   const QuizQuestionScreen({
