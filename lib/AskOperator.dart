@@ -5,7 +5,7 @@ import 'Quiz/QuizQuestionScreen.dart';
 import 'customWidget/ButtonIcon.dart';
 import 'customWidget/customWidgetMethods.dart';
             height: double.infinity,
-child: Center(
+            child: Center(
               child: SingleChildScrollView(
 
                 
