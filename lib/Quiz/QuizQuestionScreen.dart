@@ -1,5 +1,3 @@
-
-  final TextEditingController _range2 = TextEditingController();
   var time = 10;
 
   @override
