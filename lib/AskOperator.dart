@@ -9,7 +9,7 @@ import 'customWidget/customWidgetMethods.dart';
               child: SingleChildScrollView(
                 physics: const ScrollPhysics(parent: ScrollPhysics()),
                 child: Column(
-                  
+                  children: on: FontAwesomeIcons.plus,
                           
                         ButtonIcon(
                           icon: FontAwesomeIcons.minus,
