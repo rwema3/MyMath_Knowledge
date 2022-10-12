@@ -1,4 +1,3 @@
-    this.icon = Icons.add,
     this.operator = 'sum',
   });
   final IconData icon;
