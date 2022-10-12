@@ -9,7 +9,12 @@ import 'customWidget/customWidgetMethods.dart';
               child: SingleChildScrollView(
                 physics: const ScrollPhysics(parent: ScrollPhysics()),
                 child: Column(
-                  children: on: FontAwesomeIcons.plus,
+                  children: <Widget>[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        ButtonIcon(
+                          icon: FontAwesomeIcons.plus,
                           function: () => Navigator.push(
                               context,
                               MaterialPageRoute(
