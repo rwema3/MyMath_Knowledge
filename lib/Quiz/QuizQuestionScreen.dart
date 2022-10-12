@@ -1,5 +1,3 @@
-  final String operator;
-
   @override
   _QuizQuestionScreenState createState() => _QuizQuestionScreenState();
 }
