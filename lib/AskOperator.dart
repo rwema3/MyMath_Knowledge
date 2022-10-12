@@ -13,8 +13,7 @@ class AskOperator extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(60.0),
-          child: Container(
+          
             alignment: Alignment.center,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
