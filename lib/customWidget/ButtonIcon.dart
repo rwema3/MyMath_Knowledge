@@ -28,7 +28,11 @@ class ButtonIcon extends StatelessWidget {
               : MediaQuery.of(context).size.width / 3,
           child: Hero(
             tag: icon,
-            
+            child: Icon(
+              icon,
+              size: 50,
+              color: Colors.white,
+            ),
           ),
         ),
       ),
