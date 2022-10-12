@@ -10,7 +10,12 @@ import 'customWidget/customWidgetMethods.dart';
                 physics: const ScrollPhysics(parent: ScrollPhysics()),
                 child: Column(
                   children: on: FontAwesomeIcons.plus,
-                          
+                                    : const PdfGenerationScreen(
+                                        icon: FontAwesomeIcons.plus,
+                                        operator: 'sum',
+                                      ),
+                              )),
+                        ),
                         ButtonIcon(
                           icon: FontAwesomeIcons.minus,
                           function: () => Navigator.push(
