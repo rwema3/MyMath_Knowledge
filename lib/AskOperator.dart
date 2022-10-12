@@ -4,6 +4,10 @@ import 'PDF/PdfGeneratonScreen.dart';
 import 'Quiz/QuizQuestionScreen.dart';
 import 'customWidget/ButtonIcon.dart';
 import 'customWidget/customWidgetMethods.dart';
+
+class AskOperator extends StatelessWidget {
+            child: const CustomAppBar(),
+          ),
         ),
         body: SafeArea(
           child: SizedBox(
