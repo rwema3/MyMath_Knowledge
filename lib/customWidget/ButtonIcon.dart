@@ -9,7 +9,10 @@ class ButtonIcon extends StatelessWidget {
     required this.function,
   });
   final IconData icon;
-  fi
+  final Function() function;
+  @override
+  Widget build(BuildContext context) {
+    
           ),
         ),
       ),
