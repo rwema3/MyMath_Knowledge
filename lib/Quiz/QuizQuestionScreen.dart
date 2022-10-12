@@ -9,10 +9,6 @@
         child: Container(
           alignment: Alignment.center,
           
-      ),
-      body: Center(
-        child: Container(
-          height: double.infinity,
           padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           child: SingleChildScrollView(
             physics: const ScrollPhysics(parent: ScrollPhysics()),
