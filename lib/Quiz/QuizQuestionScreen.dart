@@ -8,14 +8,6 @@
         preferredSize: const Size.fromHeight(60.0),
         child: Container(
           alignment: Alignment.center,
-                Hero(
-                  tag: widget.icon,
-                  child: Icon(
-                    widget.icon,
-                    size: 70,
-                    color: baseColor,
-                  ),
-                ),
                 const SizedBox(height: 30),
                 Form(
                   key: _formKey,
