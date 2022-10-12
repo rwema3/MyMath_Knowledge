@@ -1,5 +1,3 @@
-
-class QuizQuestionScreen extends StatefulWidget {
   const QuizQuestionScreen({
     super.key,
     this.icon = Icons.add,
