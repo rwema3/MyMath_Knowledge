@@ -26,7 +26,9 @@ class ButtonIcon extends StatelessWidget {
           height: MediaQuery.of(context).size.width > 550
               ? 200
               : MediaQuery.of(context).size.width / 3,
-          
+          child: Hero(
+            tag: icon,
+            
           ),
         ),
       ),
