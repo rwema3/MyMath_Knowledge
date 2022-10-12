@@ -9,6 +9,8 @@
         child: Container(
           alignment: Alignment.center,
           
+          child: const CustomAppBar(),
+        ),
       ),
       body: Center(
         child: Container(
