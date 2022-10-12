@@ -21,8 +21,6 @@ class ButtonIcon extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
           ),
           width: MediaQuery.of(context).size.width > 550
-              ? 200
-              : MediaQuery.of(context).size.width / 2,
           
           ),
         ),
