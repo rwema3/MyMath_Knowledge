@@ -1,3 +1,7 @@
+  @override
+  _QuizQuestionScreenState createState() => _QuizQuestionScreenState();
+}
+
 class _QuizQuestionScreenState extends State<QuizQuestionScreen> {
   final _formKey = GlobalKey<FormState>();
 
