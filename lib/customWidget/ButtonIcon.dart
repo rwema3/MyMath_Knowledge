@@ -20,7 +20,6 @@ class ButtonIcon extends StatelessWidget {
             color: baseColor,
             borderRadius: BorderRadius.circular(20),
           ),
-          width: MediaQuery.of(context).size.width > 550
           
           ),
         ),
