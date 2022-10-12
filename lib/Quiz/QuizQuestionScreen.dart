@@ -1,9 +1,3 @@
-class _QuizQuestionScreenState extends State<QuizQuestionScreen> {
-  final _formKey = GlobalKey<FormState>();
-
-  final TextEditingController _ques = TextEditingController();
-
-  final TextEditingController _range1 = TextEditingController();
 
   final TextEditingController _range2 = TextEditingController();
   var time = 10;
