@@ -7,7 +7,7 @@ import 'customWidget/customWidgetMethods.dart';
             height: double.infinity,
             child: Center(
               child: SingleChildScrollView(
-
+                physics: const ScrollPhysics(parent: ScrollPhysics()),
                 
                           
                         ButtonIcon(
