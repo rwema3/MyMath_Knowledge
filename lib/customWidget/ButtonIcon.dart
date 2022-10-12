@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
 
+import '../utils/colorConst.dart';
 
+class ButtonIcon extends StatelessWidget {
+  const ButtonIcon({
+    super.key,
+    required this.icon,
+    required this.function,
+  });
+  final IconData icon;
+  fi
           ),
         ),
       ),
