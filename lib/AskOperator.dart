@@ -4,6 +4,9 @@ import 'PDF/PdfGeneratonScreen.dart';
 import 'Quiz/QuizQuestionScreen.dart';
 import 'customWidget/ButtonIcon.dart';
 import 'customWidget/customWidgetMethods.dart';
+        ),
+        body: SafeArea(
+          child: SizedBox(
             height: double.infinity,
             child: Center(
               child: SingleChildScrollView(
