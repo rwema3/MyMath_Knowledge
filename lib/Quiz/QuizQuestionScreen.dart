@@ -1,7 +1,3 @@
-import 'package:flutter/material.dart';
-
-import '../customWidget/MainScreenCard.dart';
-import '../customWidget/customWidgetMethods.dart';
 import '../utils/colorConst.dart';
 import 'QuizScreen.dart';
 
