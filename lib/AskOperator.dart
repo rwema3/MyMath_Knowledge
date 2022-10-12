@@ -8,7 +8,8 @@ import 'customWidget/customWidgetMethods.dart';
             child: Center(
               child: SingleChildScrollView(
                 physics: const ScrollPhysics(parent: ScrollPhysics()),
-                
+                child: Column(
+                  
                           
                         ButtonIcon(
                           icon: FontAwesomeIcons.minus,
