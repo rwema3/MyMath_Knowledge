@@ -17,6 +17,9 @@ class ButtonIcon extends StatelessWidget {
         onPressed: function,
         child: Container(
           decoration: BoxDecoration(
+            color: baseColor,
+            borderRadius: BorderRadius.circular(20),
+          ),
           
           ),
         ),
