@@ -12,8 +12,7 @@ class AskOperator extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        appBar: PreferredSize(
-          
+        
             alignment: Alignment.center,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
