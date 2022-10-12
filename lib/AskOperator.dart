@@ -10,13 +10,6 @@ import 'customWidget/customWidgetMethods.dart';
                 physics: const ScrollPhysics(parent: ScrollPhysics()),
                 child: Column(
                   children: on: FontAwesomeIcons.plus,
-                          function: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => isQuiz
-                                    ? const QuizQuestionScreen(
-                                        icon: FontAwesomeIcons.plus,
-                                      )
                                     : const PdfGenerationScreen(
                                         icon: FontAwesomeIcons.plus,
                                         operator: 'sum',
