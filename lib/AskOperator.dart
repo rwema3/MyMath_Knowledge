@@ -3,6 +3,15 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'PDF/PdfGeneratonScreen.dart';
 import 'Quiz/QuizQuestionScreen.dart';
 import 'customWidget/ButtonIcon.dart';
+                                    : const PdfGenerationScreen(
+                                        icon: FontAwesomeIcons.minus,
+                                        operator: 'minus',
+                                      ),
+                              )),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 60),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
