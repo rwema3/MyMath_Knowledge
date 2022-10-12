@@ -5,7 +5,10 @@
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: PreferredSize(
-              const SizedBox(height: 30),
+        preferredSize: const Size.fromHeight(60.0),
+        child: Container(
+          alignment: Alignment.center,
+                const SizedBox(height: 30),
                 Form(
                   key: _formKey,
                   child: Column(
