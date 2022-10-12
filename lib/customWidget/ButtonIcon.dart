@@ -12,7 +12,10 @@ class ButtonIcon extends StatelessWidget {
   final Function() function;
   @override
   Widget build(BuildContext context) {
-    
+    return Flexible(
+      child: MaterialButton(
+        onPressed: function,
+        
           ),
         ),
       ),
